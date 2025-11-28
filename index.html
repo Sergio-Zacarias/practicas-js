@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 13 Carrito</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="preferencias">
+        <h2>Preferencias del Usuario</h2>
+        <form id="form-preferencias">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" /><br /><br />
+          <label>
+            Color de Fondo
+            <select id="colores-fondo">
+              <option value="#ffffff">Blanco</option>
+              <option value="#f8f9fa">Gris claro</option>
+              <option value="#e0f7fa">Celeste</option>
+              <option value="#fce4ec">Rosa</option>
+            </select>
+          </label>
+          <br /><br />
+          <p id="saludo"></p>
+          <button type="submit">Guardar preferencias</button>
+        </form>
+      </div>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
