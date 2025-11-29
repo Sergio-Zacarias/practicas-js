@@ -8,6 +8,7 @@
   </head>
   <body>
     <main>
+      <!-- EJERCICIO 1
       <div id="preferencias">
         <h2>Preferencias</h2>
         <form id="form-preferencias">
@@ -26,6 +27,55 @@
           <p id="saludo"></p>
           <button type="submit">Guardar preferencias</button>
         </form>
+      </div>
+      EJERCICIO 2 -->
+      <h1>Tienda Online</h1>
+      <!-- Productos -->
+      <div id="productos">
+        <h2>Productos Disponibles</h2>
+        <ul>
+          <li>
+            Producto 1 - $10
+            <button
+              class="agregar-carrito"
+              data-id="1"
+              data-nombre="Producto 1"
+              data-precio="10"
+            >
+              Agregar al Carrito
+            </button>
+          </li>
+          <br /><br />
+          <li>
+            Producto 2 - $15
+            <button
+              class="agregar-carrito"
+              data-id="2"
+              data-nombre="Producto 2"
+              data-precio="15"
+            >
+              Agregar al Carrito
+            </button>
+          </li>
+          <br /><br />
+          <li>
+            Producto 3 - $20
+            <button
+              class="agregar-carrito"
+              data-id="3"
+              data-nombre="Producto 3"
+              data-precio="20"
+            >
+              Agregar al Carrito
+            </button>
+          </li>
+        </ul>
+      </div>
+      <!-- Carrito de Compras -->
+      <div id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <button id="vaciar-carrito">Vaciar Carrito</button>
       </div>
     </main>
     <script src="./js/index.js"></script>
